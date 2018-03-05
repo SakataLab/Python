@@ -1,16 +1,16 @@
 """
 Script for the Python Workshop - Part 7 : Dictionaries
-Dec 2017
+Charlotte HERICE - Dec 2017
 Just un-comment the part you want to execute
 """
 
-# dico = dict()
-# print(type(dico))
-# print(dico)
-# dico = {}
-# print(dico)
+dico = dict()
+print(type(dico))
+print(dico)
+dico = {}
+print(dico)
 
-##########################
+#########################
 
 # dico = {}
 # dico["fruit"] = "apple"
@@ -19,14 +19,14 @@ Just un-comment the part you want to execute
 
 # print(dico["fruit"])
 
-##########################
+# #########################
 
 # myDict = {"rats":4, "mice":6, "monkeys":2}
 # print(myDict)
 # del myDict["mice"]
 # print(myDict)
 
-##########################
+# #########################
 
 # myDict = {"rats":4, "mice":6, "monkeys":2}
 # for animal in myDict:
@@ -35,19 +35,19 @@ Just un-comment the part you want to execute
 # for animal in myDict.keys():
 # 	print(animal)
 
-##########################
+# #########################
 
 # myDict = {"rats":4, "mice":6, "monkeys":2}
 # for number in myDict.values():
 # 	print(number)
 
-##########################
+# #########################
 
 # for animal, number in myDict.items():
 # 	print("Number of {} : {}".format(animal, number))
 # 	print("Number of %s : %d" % (animal, number))
 
-##########################
+# #########################
 
 # myDict = {"rats":4, "mice":6, "monkeys":2}
 # if ("rats" in myDict):

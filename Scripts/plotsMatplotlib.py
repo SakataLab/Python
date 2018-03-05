@@ -1,21 +1,21 @@
 """
 Script for the Python Workshop - Part 10 : Matplotlib
-Dec 2017
+Charlotte HERICE - Dec 2017
 Just un-comment the part you want to execute
 """
 
-# from pylab import * 
-# import numpy as np
+from pylab import * 
+import numpy as np
 
-# X = np.linspace(-np.pi, np.pi, 256, endpoint=True)
-# print(X)
-# cosX = np.cos(X)
-# sinX = np.sin(X)
-# print(cosX)
-# print(sinX)
+X = np.linspace(-np.pi, np.pi, 256, endpoint=True)
+print(X)
+cosX = np.cos(X)
+sinX = np.sin(X)
+print(cosX)
+print(sinX)
 
-# plot (X, cosX), plot(X, sinX)
-# show()
+plot (X, cosX), plot(X, sinX)
+show()
 
 ##########################
 
@@ -34,7 +34,7 @@ Just un-comment the part you want to execute
 # # Plot sine using green color with a continuous line of width 1 (pixels)
 # plot(X, sinX, color="green", linewidth=2.0, linestyle="-")
 
-# savefig("fig1.png")
+# savefig("../Figures/fig1.png")
 # show()
 
 ##########################

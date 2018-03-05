@@ -1,6 +1,6 @@
 """
 Script for the Python Workshop - Final Application
-Dec 2017
+Charlotte HERICE - Dec 2017
 """
 
 # #################################
@@ -12,7 +12,7 @@ from pylab import *
 
 allAnimals = []
 
-myFile = open("scoresAllAnimals.txt", "r")
+myFile = open("../Data/scoresAllAnimals.txt", "r")
 temp = myFile.read()
 myFile.close()
 # print(temp)

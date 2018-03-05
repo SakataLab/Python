@@ -1,6 +1,6 @@
 """
 Script for the Python Workshop - Part 2 : Getting familiar with variables
-Dec 2017
+Charlotte HERICE - Dec 2017
 Just un-comment the part you want to execute
 """
 

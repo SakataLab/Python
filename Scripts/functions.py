@@ -1,20 +1,20 @@
 """
 Script for the Python Workshop - Part 8 : Functions
-Dec 2017
+Charlotte HERICE - Dec 2017
 Just un-comment the part you want to execute
 """
 
-# def table_7():
-# 	nb = 7
-# 	i = 0
-# 	while(i < 10):
-# 		print(i+1, "*", nb, "=", (i+1)*nb)
-# 		i += 1
+def table_7():
+	nb = 7
+	i = 0
+	while(i < 10):
+		print(i+1, "*", nb, "=", (i+1)*nb)
+		i += 1
 
-# # Main
-# table_7()
+# Main
+table_7()
 
-##########################
+#########################
 
 # def table(nb):
 # 	i = 0
@@ -26,7 +26,7 @@ Just un-comment the part you want to execute
 # table(7)
 # table(8)
 
-##########################
+# #########################
 
 # def table(nb, maxVal):
 # 	i = 0
@@ -38,7 +38,7 @@ Just un-comment the part you want to execute
 # table(7, 10)
 # table(8, 20)
 
-##########################
+# #########################
 
 # def multiplication(a, b):
 # 	return (a * b)
